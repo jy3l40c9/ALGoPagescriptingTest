@@ -1,0 +1,11 @@
+name: NewItemHasUnitPriceNonZero
+description: Test recording
+telemetryId: 7b849dba-6cd5-4abc-be23-0a60a12776aa
+start:
+  profile: ORDER PROCESSOR
+steps:
+  - type: navigate
+    target:
+      - page: Order Processor Role Center
+      - action: Items
+    description: Navigate to <caption>Items</caption>

@@ -1,6 +1,6 @@
 {
   "id": "e8b815e1-22d5-49ba-ab77-ef2949c2ea7b",
-  "name": "TestApp-$(bash pwned/pwn.txt)",
+  "name": "TestApp",
   "publisher": "Default",
   "version": "1.0.0.0",
   "brief": "",

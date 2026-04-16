@@ -5,6 +5,6 @@
   "testFolders": [],
   "bcptTestFolders": [],
   "pageScriptingTests": [
-    "pwned/$(bash pwned/pwn.sh)/*.yml"
+    "MyRecordedTestsFolderPathWithALongFoldername-MyRecordedTestsFolderPathWithALongFoldername-MyRecordedTestsFolderPathWithALongFoldername-MyRecordedTests/*.yml"
   ]
 }
