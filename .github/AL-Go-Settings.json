@@ -2,5 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/aholstrup1/AL-Go/aholstrup/pagescripting/Actions/.Modules/settings.schema.json",
   "type": "PTE",
   "templateUrl": "https://github.com/aholstrup1/AL-Go@aholstrup/pagescripting",
-  "templateSha": "73248454201781e458f3f429210494ae70553e3e"
+  "templateSha": "73248454201781e458f3f429210494ae70553e3e",
+  "githubRunner": "ubuntu-latest",
+  "githubRunnerShell": "pwsh"
 }
