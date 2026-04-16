@@ -1,9 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/aholstrup1/AL-Go/aholstrup/pagescripting/Actions/.Modules/settings.schema.json",
   "country": "us",
-  "appFolders": [],
+  "appFolders": ["TestApp"],
   "testFolders": [],
   "bcptTestFolders": [],
+  "dummy": "trigger",
   "pageScriptingTests": [
     "MyRecordedTestsFolderPathWithALongFoldername-MyRecordedTestsFolderPathWithALongFoldername-MyRecordedTestsFolderPathWithALongFoldername-MyRecordedTests/*.yml"
   ]
